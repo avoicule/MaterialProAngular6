@@ -1,12 +1,10 @@
 <!-- ============================================================== -->
 <!-- row -->
 <!-- ============================================================== -->
-<!-- <div  fxflex="100" fxflex.gt-sm="100" style="flex: 1 1 100%; box-sizing: border-box; max-width: 100%;"> -->
-<div _ngcontent-c12="" fxlayout="row" fxlayoutwrap="wrap" style="flex-flow: row wrap; box-sizing: border-box; display: flex;">
-    <div class="card-group">
-      
-      <mat-card>
-          <mat-card-content   style="padding: 15px 15px 0px 15px">
+
+    <div style="padding:0px;width: 100%;display: flex;">
+      <mat-card style="margin-right: 5px">
+          <mat-card-content   style="padding: 15px 15px 0px 15px;">
               <mat-icon>add_circle_outline</mat-icon> 
           </mat-card-content>
 
@@ -20,7 +18,7 @@
 
           <p style="padding: 0px 15px 0px 15px">Result: 100</p>
 
-          <mat-card class="example-card" style="width: 20rem;">
+          <mat-card  style="width: 18rem;margin:10px 20px 0px 45px">
               <mat-card-header>
               <div mat-card-avatar class="example-header-image"></div>
               <mat-card-title>Tom Cruises</mat-card-title>
@@ -37,7 +35,7 @@
               </mat-card-content>
           </mat-card>
         
-          <mat-card class="example-card" style="width: 20rem;">
+          <mat-card  style="width: 18rem;margin:10px 20px 0px 45px">
             <mat-card-header>
             <div mat-card-avatar class="example-header-image"></div>
             <mat-card-title>Black Pearl</mat-card-title>
@@ -57,17 +55,33 @@
 
       </mat-card>    
   
-      <mat-card  class="pricing-plan mat-card">
-            <mat-card style=" max-width: 100%;max-height: 100%">
+ 
+            
+    <!-- ============================================================== -->
+    <!-- Simple four boxes Row -->
+    <!-- ============================================================== -->
+    <div class="col-md-12" style="width:100%">
+            <!-- column -->    
+            <div >
+                <mat-card>
                     <mat-card-content>
-                            <p style="padding: 0px 15px 0px 15px">Result: 100</p>
-
+                        <!-- Row -->
+                        <div >
+                            <!-- column -->
+                            <div >
+                                Buy our Pro version with tones of features
+                                <br/><br/>
+                                <a href="https://wrappixel.com/templates/materialpro-angular-dashboard/" mat-raised-button color="warn">Upgrade To Pro</a>
+                            </div>
+                        </div>      
                     </mat-card-content>
-            </mat-card>    
-        
-      </mat-card>    
-    
+                </mat-card>
+            </div>
+            <!-- column -->    
+        </div>
     </div>
-</div>
+
+
+
 
 
