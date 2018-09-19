@@ -1,17 +1,18 @@
 <!-- ============================================================== -->
 <!-- row -->
 <!-- ============================================================== -->
-<div fxLayout="row" fxLayoutWrap="wrap">
-  <!-- Account  column -->
-  <div style="width: 24rem;" >
-      <mat-card style="height:100%">
-          <mat-card-content  style="padding:15px">
+<!-- <div  fxflex="100" fxflex.gt-sm="100" style="flex: 1 1 100%; box-sizing: border-box; max-width: 100%;"> -->
+<div _ngcontent-c12="" fxlayout="row" fxlayoutwrap="wrap" style="flex-flow: row wrap; box-sizing: border-box; display: flex;">
+    <div class="card-group">
+      
+      <mat-card>
+          <mat-card-content   style="padding: 15px 15px 0px 15px">
               <mat-icon>add_circle_outline</mat-icon> 
           </mat-card-content>
 
           <mat-form-field  style="padding: 0px 15px 0px 15px">
             <mat-select placeholder="Display"  multiple>
-              <mat-option>Sea based</mat-option>
+              <mat-option>All</mat-option>
               <mat-option>Land based</mat-option>
               <mat-option>Overseas</mat-option>
             </mat-select>
@@ -51,8 +52,22 @@
                 <div class="button-row" align="right"><button mat-button class="">ACTIVE</button></div>
             </ul>
             </mat-card-content>
+
         </mat-card>
 
       </mat-card>    
-  </div>
+  
+      <mat-card  class="pricing-plan mat-card">
+            <mat-card style=" max-width: 100%;max-height: 100%">
+                    <mat-card-content>
+                            <p style="padding: 0px 15px 0px 15px">Result: 100</p>
+
+                    </mat-card-content>
+            </mat-card>    
+        
+      </mat-card>    
+    
+    </div>
 </div>
+
+
