@@ -1,20 +1,58 @@
-    <div class="col-md-2">
-      <mat-card class="example-card" style="width: 18rem;">
-        <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Tom Cruises</mat-card-title>
-        </mat-card-header>
-        <mat-card-content style="padding-bottom: 20px">
-          <ul style="list-style: none;padding: 0px">
-            <li><mat-icon>web</mat-icon> Philippines</li>
-            <li><mat-icon>web</mat-icon> tomcruises@topgun.com</li>
-            <li><mat-icon>web</mat-icon> (02)-405-4596</li>
-            <li><mat-icon>web</mat-icon> Code: 0455640  ACTIVE</li>
-          </ul>
-        </mat-card-content>
-        
-      </mat-card>
+<!-- ============================================================== -->
+<!-- row -->
+<!-- ============================================================== -->
+<div fxLayout="row" fxLayoutWrap="wrap">
+  <!-- Account  column -->
+  <div style="width: 24rem;" >
+      <mat-card style="height:100%">
+          <mat-card-content  style="padding:15px">
+              <mat-icon>add_circle_outline</mat-icon> 
+          </mat-card-content>
 
-    </div>
-    <div class="col-md-10"></div>
-  
+          <mat-form-field  style="padding: 0px 15px 0px 15px">
+            <mat-select placeholder="Display"  multiple>
+              <mat-option>Sea based</mat-option>
+              <mat-option>Land based</mat-option>
+              <mat-option>Overseas</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <p style="padding: 0px 15px 0px 15px">Result: 100</p>
+
+          <mat-card class="example-card" style="width: 20rem;">
+              <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>Tom Cruises</mat-card-title>
+              </mat-card-header>
+              <mat-card-content style="padding: 0px 10px 10px 20px">
+              <ul style="list-style: none;padding: 0px">
+                  <li><mat-icon>public</mat-icon> Philippines</li>
+                  <li><mat-icon>person</mat-icon> Tom Cruise</li>
+                  <li><mat-icon>email</mat-icon> tomcruises@topgun.com</li>
+                  <li><mat-icon>call</mat-icon> (02)-405-4596</li>
+                  <li><mat-icon>code</mat-icon> 0455640 </li>
+                  <div class="button-row" align="right"><button mat-button class="">ACTIVE</button></div>
+              </ul>
+              </mat-card-content>
+          </mat-card>
+        
+          <mat-card class="example-card" style="width: 20rem;">
+            <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>Black Pearl</mat-card-title>
+            </mat-card-header>
+            <mat-card-content style="padding: 0px 10px 10px 20px">
+            <ul style="list-style: none;padding: 0px">
+                <li><mat-icon>public</mat-icon> Caribbean</li>
+                <li><mat-icon>person</mat-icon> Captain Jack Sparrow</li>
+                <li><mat-icon>email</mat-icon> jacksparrow@pirates.com</li>
+                <li><mat-icon>call</mat-icon> (02)-405-4596</li>
+                <li><mat-icon>code</mat-icon> 0455640 </li>
+                <div class="button-row" align="right"><button mat-button class="">ACTIVE</button></div>
+            </ul>
+            </mat-card-content>
+        </mat-card>
+
+      </mat-card>    
+  </div>
+</div>
